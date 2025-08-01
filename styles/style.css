@@ -142,7 +142,7 @@ address a {
 .lots__card-list {
   display: flex;
   flex-wrap: wrap; 
-  gap: 25px;                           
+  gap: 25px;              
   margin: 0;
   padding: 0;
   list-style: none;
@@ -211,8 +211,8 @@ address a {
 
 /* Текст карточки */
 .card__text {
-  color: white;
   font-family: 'Raleway', sans-serif;
+  color: white; 
   font-weight: 400;
   font-size: 20px;
 }
