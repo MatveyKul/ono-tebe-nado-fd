@@ -121,7 +121,7 @@ address a {
 
 /* Кнопка 'Ставки' */
 .bet-button {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 256px;
@@ -132,8 +132,7 @@ address a {
   font-size: 22px;
   font-style: medium;
   text-transform: uppercase;
-  background: transparent; 
-  
+  background: transparent;
 }
  
 /* Конец блока 'Оно тебе надо' */
@@ -142,8 +141,8 @@ address a {
 
 .lots__card-list {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 25px;              
+  flex-wrap: wrap;
+  gap: 25px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -212,8 +211,7 @@ address a {
 
 /* Текст карточки */
 .card__text {
-  font-family: 'Raleway', sans-serif;
-  color: white; 
+  color: white;
   font-weight: 400;
   font-size: 20px;
 }
