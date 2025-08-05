@@ -19,7 +19,7 @@ header {
   gap: 32.5px;
 }
 
-.header__links-list-item_no-bullit a{
+.header__links-list-item_no-bullit a {
   text-decoration: none;
 }
 
@@ -41,11 +41,11 @@ header {
   display: flex;
   flex-direction: column;
   justify-self: end;
-  font-style: normal;
   gap: 5px;
   width: 240px;
   font-weight: 400;
   font-size: 18px;
+  font-style: normal;
 }
 
 address a {
@@ -60,19 +60,19 @@ address a {
 .cover {
   position: relative;
   width: 1100px;
+  padding: 0px 0px 48px;
   background: url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 0px 0px 48px;
 }
 
 .overlay {
   position: absolute;
+  z-index: 0;
   width: 1100px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 0;
 }
 
 .cover__title {
@@ -97,10 +97,9 @@ address a {
 
 .aligned-text_right {
   display: block;
-  text-align: right;
-  margin-right: -0.3em;
   margin-top: 16px;
-  text-align: end;
+  margin-right: -0.3em;
+  text-align: right;
 }
 
 .cover__description-text {
@@ -187,19 +186,19 @@ button {
 /* Общий стиль карточки */
 .card {
   position: relative; /* ОБЯЗАТЕЛЬНО — чтобы .card-overlay позиционировалась внутри */
+  z-index: 0; /* фон самый нижний */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 334px;
   min-height: 596px;
   margin-top: 27px;
   margin-left: 24px;
   padding: 48.5px 40px;
   color: white;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 0; /* фон самый нижний */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 /* Тип карточки — фильм */
@@ -320,8 +319,8 @@ button {
   max-width: 260px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24.3px;
   font-style: normal;
+  line-height: 24.3px;
 }
 
 .footer__links-list-item_no-bullit a {
@@ -341,8 +340,8 @@ button {
 .footer__social-list {
   display: flex;
   gap: 47px;
-  list-style: none;
   margin: 0;
+  list-style: none;
 }
 
 .footer__social-icon {
