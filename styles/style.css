@@ -37,9 +37,13 @@ header {
   height: 105px;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
+  font-style: normal;
+}
+
+.header__address {
   justify-self: end;
   gap: 5px;
   width: 240px;
@@ -70,7 +74,8 @@ address a {
 .overlay {
   position: absolute;
   z-index: 0;
-  width: 1100px;
+  inset: 0;
+  width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
@@ -149,16 +154,6 @@ button {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.card-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* полупрозрачное затемнение */
-  pointer-events: none; /* чтобы не блокировало клик */
 }
 
 .lots__heading {
@@ -314,12 +309,9 @@ button {
 }
 
 .footer__address {
-  display: flex;
-  flex-direction: column;
   max-width: 260px;
   font-weight: 400;
   font-size: 18px;
-  font-style: normal;
   line-height: 24.3px;
 }
 
